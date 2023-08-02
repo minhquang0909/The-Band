@@ -59,6 +59,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
+    text-align: center;
 }
 
 .btn:hover {
@@ -68,7 +69,7 @@ html {
 }
 
 .pull-right {
-    float: right !important;
+    float: right;
 }
 
 #header {
@@ -198,6 +199,7 @@ html {
 #slider .text-description {
     font-size: 1.6rem;
     margin-top: 20px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content .content-section {
@@ -232,16 +234,18 @@ html {
     text-align: justify;
     line-height: 1.4;
 }
+#content .member-list {
+    margin-top: 32px;
+}
 
 #content .member-name {
     text-align: center;
     font-size: 1.6rem;
     color:#000;
-    margin-top: 64px;
+    margin: 16px 0;
 }
 
 #content .member-img {
-    margin-top: 15px;
     width: 154px;
     border-radius: 4px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
@@ -337,6 +341,15 @@ html {
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a {
+    color: #0000ef;
+    opacity: 0.7;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-form {
